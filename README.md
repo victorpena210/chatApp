@@ -1,11 +1,21 @@
 # ChatApp
-A tutorial by <a href="https://o7planning.org/en/10719/create-a-simple-chat-application-with-spring-boot-and-websocket#a20785750" target="_blank">o7planning.org</a> 
 
+A simple real-time chat application built with Spring Boot, Thymeleaf, WebSocket, STOMP, and SockJS. Users can enter a username, join a public chat room, send messages instantly, and see when other users enter or leave the conversation.
 
-Websocket is a communication protocol that establishes a two way messaging between client and server.
+## Features
 
+- Real-time chat using WebSocket communication
+- STOMP message handling with SockJS fallback
+- Session-based username login
+- Public chat room for all connected users
+- Simple server-rendered UI with Thymeleaf
 
+## Tech Stack
 
-
-
-# chatApp
+- Java
+- Spring Boot
+- Thymeleaf
+- WebSocket
+- STOMP
+- SockJS
+- Maven
